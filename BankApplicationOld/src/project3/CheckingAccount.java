@@ -50,6 +50,6 @@ public double getMonthlyFee() {
 
 public String toString(){
 		
-		return super.toString()+";"+monthlyFee;
+		return super.toString()+" ; "+monthlyFee;
 	}
 }

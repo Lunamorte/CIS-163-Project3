@@ -77,6 +77,6 @@ public class SavingAccount extends Account{
 
 	public String toString(){
 		
-		return super.toString()+";"+interestRate+";"+minBalance;
+		return super.toString()+" ; "+minBalance+" ; "+interestRate;
 	}
 }

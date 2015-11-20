@@ -10,6 +10,18 @@ package project3;
  *@author Anthony Nguyen
  *@date November 2015
  *************************************************/
-public enum AccountType {
-	CHECKING, SAVING
+import javax.swing.JFrame;
+
+public class Bank {
+	static JFrame frame;
+	public static void main(String[] args) {
+		frame = new JFrame ("Bank");
+		frame.setDefaultCloseOperation (JFrame.EXIT_ON_CLOSE);
+		BankGUI panel = new BankGUI();
+		frame.getContentPane().add(panel);
+		frame.setJMenuBar(panel.menuBar);
+		frame.setSize(1000, 315);
+		frame.setVisible(true);
+	}
+
 }

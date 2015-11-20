@@ -130,6 +130,6 @@ public abstract class Account implements Serializable {
 	public String toString(){
 		DateFormat format = new SimpleDateFormat("MM-dd-yyyy");
 		String d = format.format(dateOpened.getTime());
-		return accountType+";"+number+";"+owner+";"+d+";"+balance;
+		return accountType+" ; "+number+" ; "+owner+" ; "+balance+" ; "+d;
 	}
 }

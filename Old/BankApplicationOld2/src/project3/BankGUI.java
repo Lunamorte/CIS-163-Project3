@@ -5,7 +5,7 @@ package project3;
  * allows you to add, delete, update, and sort accounts. 
  * It also provides functionality to save and load/restore 
  * accounts to and from a file using three different formats 
- * ï¿½ binary (serialized), text, and XML
+ * – binary (serialized), text, and XML
  * 
  *@author Anthony Nguyen
  *@date November 2015
@@ -590,8 +590,8 @@ public class BankGUI extends JPanel {
 								getText(),
 								Double.parseDouble(
 										accountBalanceText.getText()), 
-										Double.parseDouble(
-												monthlyFeeText.getText()));
+								Double.parseDouble(
+										monthlyFeeText.getText()));
 					}
 					catch (NumberFormatException e1) {
 						// TODO Auto-generated catch block
@@ -614,10 +614,10 @@ public class BankGUI extends JPanel {
 								getText(),
 								Double.parseDouble(
 										accountBalanceText.getText()), 
-										Double.parseDouble(
-												interestRateText.getText()), 
-												Double.parseDouble(
-														minimumBalanceText.getText()));
+								Double.parseDouble(
+										interestRateText.getText()), 
+								Double.parseDouble(
+										minimumBalanceText.getText()));
 					} catch (NumberFormatException e1) {
 						// TODO Auto-generated catch block
 						JOptionPane.showMessageDialog(null, 
@@ -652,9 +652,9 @@ public class BankGUI extends JPanel {
 									getText(),
 									Double.parseDouble(
 											accountBalanceText.getText()), 
-											Double.parseDouble(
-													monthlyFeeText.getText()), 
-													table.getSelectedRow());
+									Double.parseDouble(
+											monthlyFeeText.getText()), 
+									table.getSelectedRow());
 						} catch (NumberFormatException e1) {
 							// TODO Auto-generated catch block
 							JOptionPane.showMessageDialog(null, 
@@ -689,11 +689,11 @@ public class BankGUI extends JPanel {
 									getText(),
 									Double.parseDouble(
 											accountBalanceText.getText()), 
-											Double.parseDouble(
-													interestRateText.getText()), 
-													Double.parseDouble(
-															minimumBalanceText.getText()), 
-															table.getSelectedRow());
+									Double.parseDouble(
+											interestRateText.getText()), 
+									Double.parseDouble(
+											minimumBalanceText.getText()), 
+									table.getSelectedRow());
 						} catch (NumberFormatException e1) {
 							// TODO Auto-generated catch block
 							JOptionPane.showMessageDialog(null, 

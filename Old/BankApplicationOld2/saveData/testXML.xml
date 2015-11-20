@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<AccountInfo>
+    <Details>
+        <Account0>
+            <AccountType>CHECKING</AccountType>
+            <Number>4</Number>
+            <Owner>C</Owner>
+            <DateOpened>11-09-2015</DateOpened>
+            <AccountBalance>21.0</AccountBalance>
+            <MonthlyFee>12.0</MonthlyFee>
+        </Account0>
+        <Account1>
+            <AccountType>SAVING</AccountType>
+            <Number>2</Number>
+            <Owner>D</Owner>
+            <DateOpened>11-10-2015</DateOpened>
+            <AccountBalance>33.0</AccountBalance>
+            <InterestRate>0.54</InterestRate>
+            <MinimumBalance>32.0</MinimumBalance>
+        </Account1>
+        <Account2>
+            <AccountType>SAVING</AccountType>
+            <Number>3</Number>
+            <Owner>A</Owner>
+            <DateOpened>11-18-2015</DateOpened>
+            <AccountBalance>43.0</AccountBalance>
+            <InterestRate>2.0</InterestRate>
+            <MinimumBalance>32.0</MinimumBalance>
+        </Account2>
+        <Account3>
+            <AccountType>CHECKING</AccountType>
+            <Number>1</Number>
+            <Owner>B</Owner>
+            <DateOpened>11-18-2015</DateOpened>
+            <AccountBalance>32.0</AccountBalance>
+            <MonthlyFee>2.0</MonthlyFee>
+        </Account3>
+    </Details>
+</AccountInfo>
